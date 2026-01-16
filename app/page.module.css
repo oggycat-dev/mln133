@@ -1,0 +1,426 @@
+/* Container chính */
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.logo {
+  font-size: 60px;
+  margin-bottom: 10px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+.scoreBoard {
+  background: rgba(255,255,255,0.2);
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Theory Box */
+.theoryBox {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.theoryBox h3 {
+  color: #764ba2;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.theoryGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.theoryItem {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  border-left: 4px solid #764ba2;
+}
+
+.theoryItem strong {
+  color: #764ba2;
+}
+
+/* Instruction */
+.instruction {
+  background: rgba(255,255,255,0.15);
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* News Feed */
+.feed {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Card - Bài đăng */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.avatar {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.username {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.postId {
+  background: #e9ecef;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.contentBox {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 4px solid #667eea;
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #1c1e21;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 12px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btnGreen {
+  background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.btnGreen:hover {
+  background: linear-gradient(135deg, #218838, #1aa179);
+  transform: scale(1.02);
+}
+
+.btnRed {
+  background: linear-gradient(135deg, #dc3545, #e74c3c);
+}
+
+.btnRed:hover {
+  background: linear-gradient(135deg, #c82333, #c0392b);
+  transform: scale(1.02);
+}
+
+/* Footer */
+.footer {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  width: 100%;
+  max-width: 700px;
+  margin-top: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.footer h3 {
+  color: #764ba2;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.footer ul {
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+.footer li {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Modal Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+/* Modal */
+.modal {
+  background: white;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 550px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: popIn 0.4s ease;
+  position: relative;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.borderGreen {
+  border-top: 8px solid #28a745;
+}
+
+.borderRed {
+  border-top: 8px solid #dc3545;
+}
+
+/* Result Badge */
+.resultBadge {
+  padding: 25px;
+  text-align: center;
+}
+
+.resultBadge h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.badgeGreen {
+  background: linear-gradient(135deg, #d4edda, #c3e6cb);
+  color: #155724;
+}
+
+.badgeRed {
+  background: linear-gradient(135deg, #f8d7da, #f5c6cb);
+  color: #721c24;
+}
+
+/* Modal Content */
+.modalContent {
+  padding: 25px;
+}
+
+.situationReview {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.situationReview .avatar {
+  font-size: 40px;
+}
+
+.situationReview p {
+  font-style: italic;
+  color: #555;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.theorySection {
+  background: #e8f4f8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.theorySection h3 {
+  color: #0c5460;
+  margin: 0 0 10px 0;
+  font-size: 1.1rem;
+}
+
+.theoryText {
+  color: #0c5460;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.explanationSection {
+  margin-bottom: 20px;
+}
+
+.explanationSection h4 {
+  color: #856404;
+  margin-bottom: 10px;
+}
+
+.explanation {
+  background: #fff3cd;
+  padding: 15px;
+  border-radius: 10px;
+  color: #856404;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.typeLabel {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.labelGreen {
+  background: #28a745;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.labelRed {
+  background: #dc3545;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Close Button */
+.btnClose {
+  width: calc(100% - 50px);
+  margin: 0 25px 25px 25px;
+  padding: 15px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btnClose:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .theoryGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

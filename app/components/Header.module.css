@@ -1,0 +1,142 @@
+/* Header Container */
+.header {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Logo */
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 700;
+  transition: opacity 0.2s;
+}
+
+.logo a:hover {
+  opacity: 0.7;
+}
+
+.logoText {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 8px;
+  flex: 1;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  transition: all 0.2s;
+  font-weight: 500;
+  position: relative;
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+
+.navText {
+  font-weight: 500;
+}
+
+.navItem:hover {
+  color: var(--text-primary);
+  background-color: rgba(226, 232, 240, 0.5);
+}
+
+.navItem.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.navItem.active::after {
+  content: "";
+  position: absolute;
+  bottom: -17px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--primary);
+}
+
+/* Right Actions */
+.rightActions {
+  display: flex;
+  align-items: center;
+}
+
+.userAvatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.02em;
+}
+
+.userAvatar:hover {
+  background: var(--primary-dark);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+    height: 56px;
+  }
+
+  .logoText {
+    font-size: 1.125rem;
+  }
+
+  .nav {
+    gap: 4px;
+  }
+
+  .navItem {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+  }
+
+  .userAvatar {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8125rem;
+  }
+}
