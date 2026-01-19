@@ -1,9 +1,21 @@
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./home.module.css";
 
 export default function Home() {
   return (
     <main className={styles.container}>
+      <div className={styles.heroImageSection}>
+        <Image
+          src="/dai-hoi-dang.png"
+          alt="Chào mừng Đại hội Đảng Cộng sản Việt Nam"
+          width={1600}
+          height={800}
+          priority
+          className={styles.heroImage}
+        />
+      </div>
+
       <div className={styles.hero}>
         <h1 className={styles.title}>GÓC NHÌN DÂN CHỦ</h1>
         <p className={styles.subtitle}>Democracy Lens</p>
