@@ -20,7 +20,7 @@ export const posts: Post[] = [
     type: "violation",
     theory: "Sai! Dân chủ gắn liền với kỷ cương, pháp luật.",
     explanation:
-      "Theo tài liệu: Dân chủ không phải là muốn làm gì thì làm. Tự do của cá nhân không được xâm phạm đến danh dự, nhân phẩm của người khác (được pháp luật bảo hộ). Đây là hành vi lợi dụng dân chủ, vi phạm Luật An ninh mạng.",
+      "Dân chủ không phải là muốn làm gì thì làm. Tự do của cá nhân không được xâm phạm đến danh dự, nhân phẩm của người khác (được pháp luật bảo hộ). Đây là hành vi lợi dụng dân chủ, vi phạm Luật An ninh mạng.",
   },
   {
     id: 2,

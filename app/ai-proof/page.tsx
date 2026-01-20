@@ -4,24 +4,9 @@ export default function AIProofPage() {
   return (
     <main className={styles.container}>
       <div className={styles.header}>
-        <h1>Minh chứng sử dụng AI</h1>
+        <h1>Các nguồn tham khảo</h1>
         <p>Phân tích tài liệu giáo trình Chủ nghĩa xã hội khoa học (2019) bằng AI Gemini</p>
       </div>
-
-      {/* Giới thiệu về AI */}
-      <section className={styles.section}>
-        <div className={styles.sectionHeader}>
-          <h2>Về việc sử dụng AI trong phân tích</h2>
-        </div>
-        <div className={styles.content}>
-          <div className={styles.introBox}>
-            <p>
-              AI đã được sử dụng để đọc, hiểu và tổng hợp nội dung từ tài liệu, giúp tạo ra 
-              các tình huống thực tế và giải thích lý thuyết một cách chính xác.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Nội dung từ giáo trình */}
       <section className={styles.section}>
