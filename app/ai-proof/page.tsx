@@ -190,6 +190,9 @@ export default function AIProofPage() {
                 <strong>Giải thích và phân tích:</strong> AI đã cung cấp các giải thích chi tiết 
                 về từng tình huống, liên hệ với lý thuyết trong giáo trình.
               </li>
+              <li>
+                <strong>Tạo ảnh minh hoạ:</strong> AI đã tạo ra các ảnh minh hoạ để minh họa cho các tình huống.
+              </li>
             </ol>
           </div>
 
