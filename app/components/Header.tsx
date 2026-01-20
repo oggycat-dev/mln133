@@ -44,6 +44,12 @@ export default function Header() {
           >
             <span className={styles.navText}>Minh chứng AI</span>
           </Link>
+          <Link
+            href="/minigame"
+            className={`${styles.navItem} ${isActive("/minigame") ? styles.active : ""}`}
+          >
+            <span className={styles.navText}>Minigame</span>
+          </Link>
         </nav>
 
         {/* Right Actions */}
