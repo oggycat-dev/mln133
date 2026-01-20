@@ -17,7 +17,7 @@ const questions: Question[] = [
     question:
       "Thuật ngữ Dân chủ ra đời vào khoảng thế kỷ thứ V TCN, được hiểu là (...) của nhân dân.",
     answers: ["quyền lực"],
-    hint: "Gợi ý: Điều mà nhân dân nắm giữ trong một nền dân chủ",
+    hint: "Gợi ý: Điều mà nhân dân nắm giữ trong một nền dân chủ (8 chữ cái)",
     imagePath: "/images/minigame/q1.png",
   },
   {
@@ -25,7 +25,7 @@ const questions: Question[] = [
     question:
       "Trong chủ nghĩa Mác - Lênin, dân chủ không chỉ là một giá trị nhân văn mà còn là một (...) nhà nước.",
     answers: ["hình thái"],
-    hint: "Gợi ý: Dạng/loại của nhà nước",
+    hint: "Gợi ý: Dạng/loại của nhà nước (8 chữ cái)",
     imagePath: "/images/minigame/q2.png",
   },
   {
@@ -33,7 +33,7 @@ const questions: Question[] = [
     question:
       "Khác với các nền dân chủ trước đó, dân chủ xã hội chủ nghĩa mang bản chất của (...).",
     answers: ["giai cấp công nhân"],
-    hint: "Gợi ý: Lực lượng lãnh đạo cách mạng XHCN",
+    hint: "Gợi ý: Lực lượng lãnh đạo cách mạng XHCN (15 chữ cái)",
     imagePath: "/images/minigame/q3.png",
   },
   {
@@ -41,7 +41,7 @@ const questions: Question[] = [
     question:
       "Về mặt kinh tế, nền dân chủ XHCN dựa trên chế độ (...) về tư liệu sản xuất chủ yếu.",
     answers: ["công hữu"],
-    hint: "Gợi ý: Trái ngược với tư hữu",
+    hint: "Gợi ý: Trái ngược với tư hữu (7 chữ cái)",
     imagePath: "/images/minigame/q4.png",
   },
   {
@@ -49,7 +49,7 @@ const questions: Question[] = [
     question:
       "Dân chủ xã hội chủ nghĩa là nền dân chủ (...) nhất trong lịch sử, vì nó phục vụ lợi ích của đa số.",
     answers: ["rộng rãi"],
-    hint: "Gợi ý: Mở rộng, bao trùm",
+    hint: "Gợi ý: Mở rộng, bao trùm (7 chữ cái)",
     imagePath: "/images/minigame/q5.png",
   },
   {
@@ -57,7 +57,7 @@ const questions: Question[] = [
     question:
       "Nhà nước xã hội chủ nghĩa là (...) quan trọng nhất để thực thi quyền làm chủ của nhân dân.",
     answers: ["công cụ"],
-    hint: "Gợi ý: Phương tiện để thực hiện mục đích",
+    hint: "Gợi ý: Phương tiện để thực hiện mục đích (6 chữ cái)",
     imagePath: "/images/minigame/q6.png",
   },
   {
@@ -65,7 +65,7 @@ const questions: Question[] = [
     question:
       "Hình thức dân chủ mà nhân dân bầu ra những người đại diện thay mặt mình quyết định các công việc chung gọi là dân chủ (...).",
     answers: ["gián tiếp"],
-    hint: "Gợi ý: Không trực tiếp, thông qua người khác",
+    hint: "Gợi ý: Không trực tiếp, thông qua người khác (8 chữ cái)",
     imagePath: "/images/minigame/q7.png",
   },
   {
@@ -73,7 +73,7 @@ const questions: Question[] = [
     question:
       "Sự khác biệt lớn nhất là dân chủ XHCN hướng tới sự giải phóng con người một cách (...).",
     answers: ["toàn diện"],
-    hint: "Gợi ý: Đầy đủ mọi mặt",
+    hint: "Gợi ý: Đầy đủ mọi mặt (8 chữ cái)",
     imagePath: "/images/minigame/q8.png",
   },
   {
@@ -81,7 +81,7 @@ const questions: Question[] = [
     question:
       "Trong mối quan hệ giữa dân chủ và nhà nước, dân chủ là (...) chính trị của việc tổ chức và hoạt động của nhà nước.",
     answers: ["cơ sở"],
-    hint: "Gợi ý: Nền tảng, gốc rễ",
+    hint: "Gợi ý: Nền tảng, gốc rễ (4 chữ cái)",
     imagePath: "/images/minigame/q9.png",
   },
   {
@@ -89,7 +89,7 @@ const questions: Question[] = [
     question:
       'Lênin từng khẳng định: "Dân chủ xã hội chủ nghĩa gấp triệu lần dân chủ (...)".',
     answers: ["tư sản"],
-    hint: "Gợi ý: Giai cấp sở hữu tư liệu sản xuất trong CNTB",
+    hint: "Gợi ý: Giai cấp sở hữu tư liệu sản xuất trong CNTB (5 chữ cái)",
     imagePath: "/images/minigame/q10.png",
   },
 ];
